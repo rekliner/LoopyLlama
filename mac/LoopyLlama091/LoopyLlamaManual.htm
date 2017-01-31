@@ -1,0 +1,607 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0034)http://www.rekliner.com/?PageID=18 -->
+<HTML><HEAD><TITLE>REKLINER RECORDS - Manual</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META http-equiv=imagetoolbar content=no>
+<META 
+content="Loop Looping Loopy Looper Llama VST plug plugins plugin plug plug-ins Live Real-Time Music MP3 Austin Texas Recording Studio Musician" 
+name=keywords><LINK href="LoopyLlamaManual_files/rekliner.htm" type=text/css 
+rel=STYLESHEET><LINK href="http://www.rekliner.com/favicon.ico" 
+rel="SHORTCUT ICON">
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY>
+<SCRIPT language=JavaScript>
+//<!--
+var StreamWin = null;
+function Start(page) {
+	OpenWin = this.open(page, "_blank","toolbar=yes,menubar=yes,location=yes,scrollbars=1,resizable=1,width=650,height=465,resize=yes,status=yes");
+	OpenWin.focus();
+}
+function Wimpy(page) {
+	if (StreamWin) {
+		StreamWin.close()
+	};		
+	StreamWin = this.open(page, "_blank","toolbar=no,menubar=no,location=no,scrollbars=0,resizable=0,width=300,height=128,resize=no,status=no");
+	StreamWin.focus();
+}
+function Stream(page) {
+	//for (checkWin=0;checkWin < self.elements;checkWin++) {	}
+	if (StreamWin) {StreamWin.close()};	
+	StreamWin = this.open(page, "StreamWin","toolbar=no,menubar=no,location=no,scrollbars=0,resizable=0,width=350,height=50,resize=no,status=no");
+	StreamWin.focus();
+
+	}
+//-->
+</SCRIPT>
+<A href="http://www.rekliner.com/"><IMG src="LoopyLlamaManual_files/logo2.jpg" 
+width=800 border=0></A><BR>
+<TABLE class=navAndContent>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE class=leftNavTable valign="top">
+        <TBODY>
+        <TR class=leftNavLevel1>
+          <TD class=leftNavLevel1 noWrap>&nbsp;&nbsp;&nbsp;<A 
+            title="Home Page" 
+          href="http://www.rekliner.com/?PageID=1">Home</A></TD></TR>
+        <TR class=leftNavLevel2>
+          <TD class=leftNavLevel2 
+            noWrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+            title="The Rekliner Records Studio" 
+            href="http://www.rekliner.com/?PageID=2">Studio</A></TD></TR>
+        <TR class=leftNavLevel2>
+          <TD class=leftNavLevel2 
+            noWrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+            title="artwork services" 
+            href="http://www.rekliner.com/?PageID=6">Artwork</A></TD></TR>
+        <TR class=leftNavLevel2>
+          <TD class=leftNavLevel2 
+            noWrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A title="Web Design" 
+            href="http://www.rekliner.com/?PageID=8">Web Design</A></TD></TR>
+        <TR class=leftNavLevel2>
+          <TD class=leftNavLevel2 
+            noWrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A title="VST Plugins" 
+            href="http://www.rekliner.com/?PageID=11">VST Plugins</A></TD></TR>
+        <TR class=leftNavLevel3>
+          <TD class=leftNavLevel3 
+            noWrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+            title="Loopy Llama plugin" 
+            href="http://www.rekliner.com/?PageID=14">Loopy Llama</A></TD></TR>
+        <TR class=leftNavLevel4>
+          <TD class=leftNavLevel4 
+            noWrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manual</TD></TR>
+        <TR class=leftNavLevel4>
+          <TD class=leftNavLevel4 
+            noWrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+            title="History and future of changes" 
+            href="http://www.rekliner.com/?PageID=21">Version History</A></TD></TR>
+        <TR class=leftNavLevel4>
+          <TD class=leftNavLevel4 
+            noWrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+            title="Ask me questions about it" 
+            href="http://www.rekliner.com/?PageID=20">Q&amp;A 
+        Forum</A></TD></TR></TBODY></TABLE><BR>
+      <DIV class=events></DIV></TD>
+    <TD class=pageContent>
+      <H2>1. Getting Started</H2>
+      <P>This assumes you have a computer ready to go.&nbsp; If you don't, <A 
+      title="Using a Laptop Live" 
+      href="http://www.rekliner.com/?PageID=15">click here for a 
+      tutorial.</A></P>
+      <P><A 
+      onclick="window.open('/images/ll09a.png','Image','width=393,height=480,scrollbars=no,toolbar=no,location=no,status=no,resizable=yes,screenX=120,screenY=100');return false;" 
+      href="http://www.rekliner.com/?PageID=18#">
+      <TABLE cellSpacing=0 cellPadding=0 align=left border=1>
+        <TBODY>
+        <TR>
+          <TD><IMG style="WIDTH: 175px; HEIGHT: 199px" height=0 
+            src="LoopyLlamaManual_files/ll09a.png" width=0 align=left></TD></TR>
+        <TR>
+          <TD><FONT size=1>The default VST plugins folder for a PC<BR>(click 
+            to enlarge)</FONT></TD></TR></TBODY></TABLE></A>First, you need a host 
+      program that supports VST...This plugin is tested the most with <A 
+      href="http://www.ableton.com/" target=_blank>Ableton Live</A>&nbsp;and <A 
+      href="http://www.plogue.com/" target=_blank>Plogue Bidule</A>, but has 
+      been checked out with <A 
+      href="http://www.steinberg.net/ProductPage_sb.asp?Product_ID=2442&amp;Langue_ID=7" 
+      target=_blank>Nuendo/Cubase</A>,&nbsp;<A href="http://www.xt-hq.com/" 
+      target=_blank>EnergyXT</A>, TobyBear's miniHost, &nbsp;and <A 
+      href="http://www.steinberg.net/ProductPage_sb.asp?Product_ID=2130" 
+      target=_blank>V-Stack.</A>&nbsp;Both Ableton and Bidule currently offer 
+      free trial versions - tobyBear's host is Donationware.</P>
+      <P>You need to copy the plugin to your vst plugins directory.&nbsp; In 
+      Windows this is usually <STRONG>c:/program 
+      files/steinberg/vstplugins</STRONG>.&nbsp; In Mac OSX this is 
+      probably&nbsp;<STRONG>Users-&gt;(your 
+      name)-&gt;Library-&gt;Audio-&gt;Plug-Ins-&gt;VST</STRONG>&nbsp;...or...<STRONG> 
+      Library-&gt;Audio-&gt;Plug-Ins-&gt;VST</STRONG> .&nbsp; Ableton will tell 
+      you the correct folder if you go to Options-&gt;Preferences...-&gt;Plug In 
+      tab under "VST plug-in custom folder". Make sure you also copy the 
+      metronome file into the same directory and don't rename either one.&nbsp; 
+      You can put them in a subdirectory if you like.</P>
+      <P><FONT style="BACKGROUND-COLOR: #330066">
+      <TABLE cellSpacing=0 cellPadding=0 align=right border=1>
+        <TBODY>
+        <TR>
+          <TD><A 
+            onclick="window.open('/images/ll09b.png','Image','width=690,height=770,scrollbars=no,toolbar=no,location=no,status=no,resizable=yes,screenX=20,screenY=10');return false;" 
+            href="http://www.rekliner.com/?PageID=18#"><IMG 
+            style="WIDTH: 238px; HEIGHT: 259px" height=0 
+            src="LoopyLlamaManual_files/ll09b.png" width=0 
+align=right></A></TD></TR>
+        <TR>
+          <TD>
+            <P align=center><FONT size=1>Drag Loopy Llama to the bottom 
+            space</FONT></P></TD></TR></TBODY></TABLE>After you have done this load 
+      your host and add the plugin.&nbsp; In Ableton you do this by clicking the 
+      little plug icon on the left to show all plugins, then drag Loopy Llama 
+      into the bottom of a track.&nbsp; (pictured on the right)</FONT></P>
+      <P><FONT size=1>You will need to make some noise to loop...either monitor 
+      your soundcard or drag in some audio to the track.&nbsp; To monitor click 
+      the "In" button under the monitor section.&nbsp; The yellow "Auto" button 
+      will turn gray and the "In" will light up orange - now just plug in your 
+      instrument and play.&nbsp; To play&nbsp;an audio file, use the Tab key to 
+      move to the timeline view and drag the file from another window into the 
+      audio track and hit play (spacebar).&nbsp; With either method you should 
+      see the audio meter respond to the sounds.&nbsp; You may have to set up 
+      your soundcard under Options-&gt;Preferences...</FONT></P>
+      <P>&nbsp;</P>
+      <H2>2. Making loops on the fly</H2>
+      <P>
+      <TABLE height=200 cellSpacing=0 cellPadding=0 width=200 align=left 
+      border=1>
+        <TBODY>
+        <TR>
+          <TD>
+            <P><IMG src="LoopyLlamaManual_files/ll09d.png"><BR><FONT size=1>To 
+            get going immediately, hit the record button and start making 
+            noise...</FONT></P></TD></TR></TBODY></TABLE></P>
+      <P><FONT size=1>You should now see the tempo light flashing and the bars 
+      counting from 1 to 8.&nbsp; This is "Tap Tempo" mode - one of the 
+      <STRONG>4 basic ways</STRONG> the loopy llama works.&nbsp; You can switch 
+      between these modes&nbsp;using the <STRONG>"Set Tempo To" 
+      slider</STRONG>.&nbsp;&nbsp;In "Tap Tempo" and "Endpoints"&nbsp;mode Loopy 
+      Llama is more&nbsp;like a stand-alone footpedal than a plug-in.&nbsp; It 
+      starts in Tap Tempo mode just so you get the flashy lights first 
+      thing.</FONT></P>
+      <P><STRONG>Endpoints mode</STRONG> is what&nbsp;most people 
+      are&nbsp;expecting from a looper&nbsp;- it's the way the DL-4 and many 
+      other footpedal loopers work.&nbsp; You tap the record button once to mark 
+      the start of a loop and again&nbsp;when you reach&nbsp;the end (with a 
+      mouse, keyboard, or MIDI controller) - poof, it immediately begins 
+      looping.&nbsp; That's it!&nbsp; It will continue recording, adding to the 
+      exiting loop.&nbsp; Hitting record after that will turn on and off 
+      overdubbing but won't affect the loop length.&nbsp; If you want it to stop 
+      recording right at the second endpoint you can hit play insted of 
+      record.&nbsp; Tempo and beats are not necessary and can be ignored.&nbsp; 
+      Making a well timed loop is&nbsp;hard - you will quickly find that expert 
+      loopers make it look easy to hit buttons with precise enough 
+      timing&nbsp;for a smooth loop...it's an art and you will need 
+      practice!&nbsp;</P><SPAN 
+      style="FLOAT: right; OVERFLOW: hidden; WIDTH: 87px; HEIGHT: 82px"><IMG 
+      style="MARGIN-TOP: -118px; MARGIN-LEFT: -117px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> 
+      <P><STRONG>Tap tempo mode</STRONG> brings an exciting new element to 
+      looping: it quantizes your endpoints so you don't have to worry about your 
+      timing with the record button.&nbsp; It assumes you will be playing along 
+      to&nbsp;the click track...you must first&nbsp;tap in the tempo (presumably 
+      with a MIDI foot controller) or type it into the tempo box.&nbsp; Once you 
+      have&nbsp;the tempo and beats set&nbsp;you can hit the record button to 
+      start looping - whatever beat you were nearest to will be the 
+      beat&nbsp;the loop&nbsp;starts on.&nbsp;&nbsp;When you are ready to end 
+      the loop (say after 16 beats)&nbsp;hit record or play in time with the 
+      beat - you don't have to be exact, it will round it to the nearest 
+      beat.&nbsp; One huge bonus to using this&nbsp;is you can loop while 
+      playing with a group of musicians live. You tap in the tempo&nbsp;before 
+      the song starts&nbsp;and all play to the click track - or mute the click 
+      track and tap along until the metronome matches the group's beat and you 
+      can unmute it.&nbsp; In theory you could all watch the beat light instead 
+      of listening - good luck with that.</P>
+      <H2>3.&nbsp;Looping in sync with the host</H2>
+      <P>The "Tempo Sync" and "Transport Lock" modes work like "Tap Tempo" mode, 
+      but they get their tempo from the host program... in this case the current 
+      tempo in Ableton Live (it is set on the top left or automated).&nbsp; If 
+      you want to loop along to pre-recorded tracks where you already know the 
+      tempo then you would use these 2 modes.&nbsp; They make it extremely easy 
+      to make loops since you don't have to worry about hitting buttons in time 
+      - the loop is always exactly the length it needs to be so you just hit 
+      record when you want to.&nbsp; Like tap tempo&nbsp;they will quantize to 
+      the nearest beat so foot timing is not an issue.</P>
+      <P><STRONG>Tempo Sync mode</STRONG>&nbsp;locks in the tempo, but the start 
+      point of the loop is up to you. The downbeat can be moved by hitting the 
+      play button before or during the loop.&nbsp; The loop can be paused, 
+      cleared or replayed at any time.&nbsp; You control the length of the loop 
+      by typing in the number of beats.&nbsp; Start looping by hitting record - 
+      notice that it counts the next downbeat as the 1.&nbsp; The tap tempo 
+      button and tempo box are disabled.</P>
+      <P><STRONG>Transport Lock mode</STRONG> follows the host even 
+      closer.&nbsp; It locks into the current beat of the song so the loop will 
+      always play back in the same place relative to the song.&nbsp; If you 
+      rewind the song a few beats it will rewind the loop a few beats to match, 
+      etc...&nbsp; It even pauses and plays whenever you stop and start playback 
+      in the host, which also means the pause, play, and tap tempo buttons are 
+      disabled.&nbsp; If you hit play it will set the current beat to be the 
+      first.</P>
+      <H5><FONT size=5>4. How to work the main buttons and knobs</FONT></H5>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 84px; HEIGHT: 42px"><IMG 
+      style="MARGIN-TOP: -1px; MARGIN-LEFT: -1px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The Record Button (red 
+      REC)</STRONG>&nbsp;starts and stops recording and overdubbing&nbsp;- it 
+      acts a bit different for each of the 4 modes listed above.&nbsp; The red 
+      "Record" light will light up if it is adding to a loop.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 36px; HEIGHT: 36px"><IMG 
+      style="MARGIN-TOP: -1px; MARGIN-LEFT: -80px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The Play Button</STRONG> 
+      <STRONG>(blue)</STRONG> starts the loop playback over.&nbsp; Hit it a 
+      bunch of times to sound like Max Headroom or&nbsp;a bad DJ.&nbsp; If you 
+      are recording when you hit this it could create pops or clicks - or maybe 
+      cool wierd sounds.&nbsp; This button is disabled in Transport Lock 
+      mode.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 82px; HEIGHT: 40px"><IMG 
+      style="MARGIN-TOP: -41px; MARGIN-LEFT: 0px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The Clear Button (yellow 
+      CLR)</STRONG> Serves 2 functions.&nbsp; If you are not recording it will 
+      completely erase the loop that is playing back.&nbsp; If you are recording 
+      it becomes an "undo" button so whatever you overdubbed on the current pass 
+      of the loop will be ignored.&nbsp; Recording will resume when the next 
+      loop cycle starts, so you can keep trying to play the part you want and 
+      undo-ing it until you get it right.&nbsp; If you hit Clear twice during 
+      one pass of a loop it will completely clear the loop just like if you 
+      weren't recording...so be careful not to double click it if you don't want 
+      to (this may become a setting later).&nbsp; The "LOOP" light will go out 
+      when a loop is cleared.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 36px; HEIGHT: 36px"><IMG 
+      style="MARGIN-TOP: -41px; MARGIN-LEFT: -80px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The Paws Button</STRONG> 
+      <STRONG>(green)</STRONG> pauses playback.&nbsp; Hitting it again will 
+      unpause it. By popular demand there is a setting at the bottom so when you 
+      unpause the loop it will start over from the beginning.&nbsp; Hitting Play 
+      while it is paused will take you to the beginning of the loop and unpause 
+      it.&nbsp; This button is disabled in Transport Lock mode.&nbsp; (The 
+      symbol is a llama foot-print - yes they do have paws, not hooves :)</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 82px; HEIGHT: 37px"><IMG 
+      style="MARGIN-TOP: -76px; MARGIN-LEFT: 0px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The Tap Tempo button 
+      (purple TAP)</STRONG>&nbsp;is an easy way for you to figure out the tempo 
+      of a loop.&nbsp; It only works in Tap Tempo mode.&nbsp; It can be 
+      especially useful if you are using a host like Bidule that will allow the 
+      plugin to control the master tempo - that way you can sync other plugins 
+      to the Loopy Llama and control the tempo on the fly by tapping.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 51px; HEIGHT: 40px"><IMG 
+      style="MARGIN-TOP: -111px; MARGIN-LEFT: 0px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The "TEMPO" Box</STRONG> is 
+      where you can set the tempo manually by typing it in.&nbsp; This only 
+      applies to Tap Tempo mode.&nbsp; In the other modes it just displays the 
+      tempo in beats per minute (BPM) and changes will be ignored.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 51px; HEIGHT: 40px"><IMG 
+      style="MARGIN-TOP: -148px; MARGIN-LEFT: 0px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The "BEATS" Box</STRONG> 
+      determines how many beats are in the loop.&nbsp; Changing it will change 
+      the overall length of the loop except when starting out in Endpoints 
+      mode.&nbsp; In Endpoints this number is not relevant unless you want to 
+      use the click track once the loop is playing.&nbsp; In that case you must 
+      enter the number of beats the loop will be beforehand...the tempo will be 
+      calculated and the metronome will start once you hit Record the second 
+      time.&nbsp; In any mode if you change the number of beats while it is 
+      playing a loop it will truncate the loop if you make it smaller or add 
+      silence at the end if you make it bigger (you may get old loop contents if 
+      you add beats during playback).&nbsp; The idea is you could record an 8 
+      bar loop, set it to repeat only the first 4 bars, then set it back to 8 on 
+      the fly.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 105px; HEIGHT: 20px"><IMG 
+      style="MARGIN-TOP: -183px; MARGIN-LEFT: 3px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The "1st loop sets beats" 
+      Box</STRONG> determines how many beats are in the loop. Changing it will 
+      change the overall length of the loop except when starting out in 
+      Endpoints mode. In Endpoints this number is not relevant unless you want 
+      to use the click track once the loop is playing. In that case you must 
+      enter the number of beats the loop will be beforehand...the tempo will be 
+      calculated and the metronome will start once you hit Record the second 
+      time. In any mode if you change the number of beats while it is playing a 
+      loop it will truncate the loop if you make it smaller or add silence at 
+      the end if you make it bigger (you may get old loop contents if you add 
+      beats during playback). The idea is you could record an 8 bar loop, set it 
+      to repeat only the first 4 bars, then set it back to 8 on the fly.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 37px; HEIGHT: 88px"><IMG 
+      style="MARGIN-TOP: -21px; MARGIN-LEFT: -111px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The "IN" Slider</STRONG> 
+      trims the input volume to the loop.&nbsp; If you have a very loud signal 
+      going into the loop then it will overdrive and clip with only a couple of 
+      passes.&nbsp; By turning down the In volume you get some headroom to layer 
+      and overlap your sounds with.&nbsp; This does not affect the amount of dry 
+      signal to the output.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 36px; HEIGHT: 65px"><IMG 
+      style="MARGIN-TOP: -41px; MARGIN-LEFT: -143px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The "LOOP" Slider</STRONG> 
+      trims the output volume of the Loop.&nbsp; It could also be called "Wet 
+      Volume" and I may be adding a checkbox to crossfade dry and wet volumes to 
+      allow for easier mixing.</P>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 34px; HEIGHT: 67px"><IMG 
+      style="MARGIN-TOP: -41px; MARGIN-LEFT: -187px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The "DRY" Slider</STRONG> 
+      trims the input volume that is routed directly out.&nbsp; If you turn it 
+      completely off you will only hear the loop.&nbsp; Setting this lower will 
+      allow the loop to build up to a&nbsp;louder volume than your source 
+      material.</P>
+      <H5><FONT size=5>5. Super fun features</FONT></H5>
+      <P><STRONG><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 40px; HEIGHT: 44px"><IMG 
+      style="MARGIN-TOP: -106px; MARGIN-LEFT: -43px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> The Direction 
+      button</STRONG> (the orange "DIR") can make you some crazy sounds!&nbsp; 
+      Click it and the loop will begin playing backwards at the start of the 
+      next cycle.&nbsp; To hear it forwards again click the Driection button 
+      again and it will flip back at the next cycle.&nbsp; Pretty 
+      straightforward right?&nbsp; Lets take it a step further then... </P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 40px; HEIGHT: 43px"><IMG 
+      style="MARGIN-TOP: -111px; MARGIN-LEFT: -78px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> Look at <STRONG>the Reverse 
+      Mode button</STRONG> (the grey "REV").&nbsp; It has a continuous cycle 
+      pictured on it meaning that it is in "Immediate Reverse" mode:&nbsp; 
+      Whatever you played will immediately be reversed at the end of a 
+      cycle.&nbsp; So you play a few bars and hear them in reverse, then play a 
+      few more then they are also reversed when they play back.&nbsp; You can 
+      set this to "Relative Reverse" (a single grey turn pictured on the button) 
+      so that it doesn't immediately flip what you play at the end of every 
+      loop.&nbsp; This way&nbsp;you can build&nbsp;loops normally, then when you 
+      hit the Direction button all of what you played will be reversed and you 
+      can build on top of that...and then flip it again so what you just played 
+      is backwards and what you originally played is forwards!&nbsp; You'll 
+      forget what direction you started the loop in no time!</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 71px; HEIGHT: 86px"><IMG 
+      style="MARGIN-TOP: -22px; MARGIN-LEFT: -234px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> 
+      <STRONG>Llamatronics</STRONG> are a tribute to <A 
+      href="http://en.wikipedia.org/wiki/Frippertronics" 
+      target=_blank>frippertronics</A> and decaying loops... Looping goes a step 
+      further when you set <STRONG>the feedback slider&nbsp;</STRONG>to less 
+      than infinite.&nbsp; Your loops evolve as the original ideas fade and the 
+      newer ideas are more prevalent...you must refresh the old ideas to keep 
+      them alive and so the loop itself is alive and always changing - it's all 
+      very metaphysical and involves candles and incense if you do it for too 
+      long.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 42px; HEIGHT: 84px"><IMG 
+      style="MARGIN-TOP: -26px; MARGIN-LEFT: -306px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>The "LPF FREQ." 
+      slider</STRONG> (short for Low Pass Filter Frequency) works similar to the 
+      feedback slider except that it only decays the high frequencies with every 
+      pass.&nbsp; This sounds more like an analog tape loop and is used with or 
+      in place of the feedback slider to get&nbsp;a warmer more mellow sound 
+      from older ideas as they decay.&nbsp; It's the way sound gets muffled when 
+      you make a copy of a copy of a copy of a tape (does anybody use tapes 
+      anymore?). The LPF is off when the slider is at it's top position whereas 
+      the bottom position is a very drastic cut.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 40px; HEIGHT: 82px"><IMG 
+      style="MARGIN-TOP: -27px; MARGIN-LEFT: -352px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>The "Tape Hiss" 
+      slider</STRONG> adds tape hiss for an even more authentic tape 
+      sound.&nbsp; It's actually just white noise - I didn't put too much effort 
+      into duplicating the sound of tape (there are other plugins for 
+      that).&nbsp; But in conjuntion with the LPF it can give you a nice 
+      textural decay like you would get with&nbsp;that real tape looper that's 
+      going for thousands on eBay.</P>
+      <H2>6. Additional Features</H2>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 104px; HEIGHT: 25px"><IMG 
+      style="MARGIN-TOP: -161px; MARGIN-LEFT: -213px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>Record starts at 
+      next:</STRONG>&nbsp; This can delay when recording starts so you don't 
+      have to time when you hit the record button perfectly.&nbsp; The settings 
+      are "Sample", "Beat", and "Loop".&nbsp; Sample is the default setting and 
+      recording starts immediately after you hit the Record button.&nbsp; "Beat" 
+      will make it so it doesn't start recording until the next beat after you 
+      hit the button.&nbsp; "Loop" waits until the first beat of the loop to 
+      start recording.&nbsp; This&nbsp;only applies to overdubs, not the first 
+      loop points, except in Transport Lock mode.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 86px; HEIGHT: 19px"><IMG 
+      style="MARGIN-TOP: -184px; MARGIN-LEFT: -217px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>1 Loop Mode 
+      checkbox:</STRONG>&nbsp; This handy little feature changes how the record 
+      button behaves.&nbsp; If it is checked it will only record 1 pass of the 
+      loop after the next cycle.&nbsp; So if you have an 8 bar loop and you hit 
+      record on bar&nbsp;6 it will record bars 6-8 and 1-8 then turn off 
+      recording automatically.&nbsp; If you hit Record again before it is done 
+      it will record the next pass of the loop also.&nbsp; THIS IS IMPORTANT: In 
+      this mode you can't turn off recording by hitting the record button - you 
+      just have to wait until the end of the loop.&nbsp; If you keep hitting the 
+      Record button it will keep recording indefinitely.&nbsp; It doesn't count 
+      the number of times you hit it, so you have to hit it at least once for 
+      each&nbsp;pass you want to record during the previous cycle.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 72px; HEIGHT: 73px"><IMG 
+      style="MARGIN-TOP: -127px; MARGIN-LEFT: -320px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>Fade 
+      Time:</STRONG>&nbsp; When you are recording something you can't just start 
+      and stop recording instantly - the jump from silence to signal will create 
+      a pop.&nbsp; So there is a small fade in and out when you turn recording 
+      on and off.&nbsp; This slider sets the length of the fade from instant to 
+      1/8 of a second.&nbsp; It defaults to about 256 samples (depending on your 
+      samplerate) which is about the smallest fade you can have without a 
+      pop.&nbsp; You may prefer a longer smoother fade in but&nbsp;that may make 
+      it harder to time loop points.&nbsp; It also affects the ends of reversed 
+      parts when Reversing playback in Immediate Reverse mode - since a reversed 
+      part is no longer a continuous signal it must also have it's ends 
+      faded.&nbsp; A long fade can create an audible start and stop point in 
+      heavily layered immedate reversed loops.</P>
+      <H2>7. Boring Technical Features</H2>
+      <P>The bottom row of "minutia" from left to right:</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 63px; HEIGHT: 44px"><IMG 
+      style="MARGIN-TOP: -205px; MARGIN-LEFT: 0px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> 
+      <STRONG>unpaws-&gt;play</STRONG> checkbox sets it so when you unpause a 
+      playback it starts over from the beginning of the loop instead of where 
+      you paused it at.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 27px; HEIGHT: 48px"><IMG 
+      style="MARGIN-TOP: -201px; MARGIN-LEFT: -62px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>taps min.&nbsp; 
+      box</STRONG> sets the minimum number of taps to average to get the 
+      tempo.&nbsp; If you keep tapping after this number of taps it averages the 
+      most recent ones only.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 24px; HEIGHT: 48px"><IMG 
+      style="MARGIN-TOP: -202px; MARGIN-LEFT: -90px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>MIDI Ch. 
+      box</STRONG> sets the MIDI channel to listen for notes or CCs on.</P><BR 
+      clear=both>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 230px; HEIGHT: 46px"><IMG 
+      style="MARGIN-TOP: -203px; MARGIN-LEFT: -115px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>Note or CC numbers: 
+      record, play, clear, pause, tap, dir, fade, lpf, met -</STRONG> These 
+      boxes determine the MIDI CC or Note number that will trigger the main 
+      buttons.&nbsp; You would have to make sure Loopy Llama is receiving MIDI 
+      which I don't know how to do in Ableton.&nbsp; Many hosts already have 
+      MIDI assignment functionality and don't need to use these...for example in 
+      Ableton you can do this by clicking "Unfold Device Parameters" (a little 
+      triangle where you dragged the effect in) and then clicking the "MIDI" 
+      button at the very top right (everything will turn blue).&nbsp; Now click 
+      the button you want to assign (it will appear as a slider here, but don't 
+      worry it's still a button) and press the note, knob or button on your 
+      controller you want to assign to it.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 46px; HEIGHT: 33px"><IMG 
+      style="MARGIN-TOP: -210px; MARGIN-LEFT: -346px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>CCs/Notes 
+      slider</STRONG> determines whether the numbers to the left correspond to 
+      notes or CCs.&nbsp; Do you want notes to trigger the buttons or 
+      controllers?</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 38px; HEIGHT: 40px"><IMG 
+      style="MARGIN-TOP: -118px; MARGIN-LEFT: -214px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>Metronome Volume 
+      knob -</STRONG> This sets the MIDI velocity of the metronome note output. 
+      To hear the metronome in Ableton, add a percussive instrument to a MIDI 
+      track and set it's input to the track with Loopy Llama and it's Monitor 
+      setting to "In". A planned feature is an audible metronome loaded from a 
+      wav file.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 35px; HEIGHT: 40px"><IMG 
+      style="MARGIN-TOP: -118px; MARGIN-LEFT: -245px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>Metronome In Mains 
+      checkbox -</STRONG> When this is checked you will hear the metronome 
+      output along with the loop signal. It won't ever get recorded and can be 
+      turned back off at any time. Some hosts are able to utilize the third 
+      output Loopy Llama has that always sends the metronome sound.</P>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 42px; HEIGHT: 33px"><IMG 
+      style="MARGIN-TOP: -126px; MARGIN-LEFT: -279px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>Metronome Note box 
+      -</STRONG> This is what note number the metronome will output via 
+      MIDI</P><BR><BR>
+      <P><SPAN 
+      style="FLOAT: left; OVERFLOW: hidden; WIDTH: 175px; HEIGHT: 23px"><IMG 
+      style="MARGIN-TOP: 0px; MARGIN-LEFT: -113px" 
+      src="LoopyLlamaManual_files/ll09d.png"></SPAN> <STRONG>The Little Question 
+      Mark</STRONG> - clicking it or the title brings up the credits 
+      screen.&nbsp; Cute llama huh?&nbsp; That's about it.&nbsp; 
+      Click&nbsp;anywhere to make it go away, clicking here during playback will 
+      have no ill effects.</P>
+      <P><STRONG>Copy Protection -</STRONG>&nbsp; It's not quite Freeware...more 
+      like Free-for-now-ware.&nbsp;&nbsp;The current expiration 
+      is&nbsp;September 1st, 2006 - after which&nbsp;you will only see the 
+      credits screen although it will still work through automation.&nbsp; 
+      Actually you could just roll the clock back on your computer if you were 
+      desperate, but isn't that annoying?!&nbsp; I haven't decided what, if 
+      anything, to charge or if I'll just take donations.&nbsp; I don't like the 
+      idea of adding a more intrusive copy protection in the future, or the 
+      thought of never being able to make money because earlier free versions 
+      are out on the net... So I'm at an impasse, but it's OK as long as it's 
+      still under development.&nbsp; This forces people to come back every few 
+      months to get the latest version...I'll make a decision by 1.0.&nbsp; </P>
+      <H2>8. Using a Foot Controller</H2>
+      <P>The&nbsp;5 main buttons of Loopy Llama have MIDI support built in: 
+      Record, Play, Clear, Pause,&nbsp;and Tap Tempo.&nbsp; Ableton and Bidule 
+      allow you to assign MIDI CC's to controllers with their own methods, but 
+      some hosts don't and this can be more convenient.&nbsp; Using the boxes 
+      across the bottom enter any MIDI controller number or note number.&nbsp; 
+      Use the "CCs/Notes" toggle to change whether all the buttons respond to 
+      notes or CCs.&nbsp; Figuring out what note number you need can be a bit 
+      difficult, so that is only there if you really need it.&nbsp; It can come 
+      in handy if for example you want to assign the top 3 notes of your 
+      keyboard to work the buttons rather than have a seperate MIDI 
+      controller.&nbsp; Any note velocity or CC value except 0 will trigger a 
+      button - so if you have to use a knob or slider to trigger a button, just 
+      give it a quick nudge.</P>
+      <P>Any foot controller should be able to send MIDI Continuous Controller 
+      messages&nbsp;(known as&nbsp;"CC"s).&nbsp; How to setup your foot 
+      controller is a matter for your user manual.&nbsp; Loopy Llama's record 
+      button defaults to CC 40, and you need to send a full on value to trigger 
+      it (128 or 7F in hex).&nbsp;I have noticed that some foot pedals are able 
+      to alternate between a high and low CC value and others only send one 
+      value.&nbsp; For this reason there is the distinction between "Momentary" 
+      and "toggle"&nbsp; in the "Fell &amp; MIDI" setting under the "Record 
+      Button" group.&nbsp; If your footcontroller only sends one value per 
+      button then leave it on Toggle mode and the Record button will toggle on 
+      and off every time it receives that message.&nbsp; If&nbsp;your 
+      controller&nbsp;can alternate between 128 and 0, then you may prefer 
+      "On/Off" mode which follows the value of the controller...that way you can 
+      have a light on your footpedal turn on when it is recording and off when 
+      you are not... Unfortunately the other buttons always work the same - they 
+      will be "clicked" only if they get a non-zero value, so you may have to 
+      hit your controller button twice if it must toggle.</P>
+      <P>You can get&nbsp;MIDI assignment&nbsp;functionality in Ableton by 
+      clicking "Unfold Device Parameters" (a little triangle where you dragged 
+      the effect in) and then clicking the "MIDI" button at the very top right 
+      (everything will turn blue).&nbsp; Now click the button you want to assign 
+      (it will appear as a slider here, but don't worry it's still a button) and 
+      press the note, knob or button on your controller you want to assign to 
+      it.</P>
+      <H2>9. Anything else?</H2>
+      <P>This is a program meant to inspire and create...which is what I'd 
+      rather be doing right now... so I may not have written the most thorough 
+      manual.&nbsp; If you still have questions use the Contact Us link below 
+      and send them my way.&nbsp; I also answer questions publicly in the Loopy 
+      Llama Q&amp;A forum and update this manual online as things develop.&nbsp; 
+      If you have recordings that feature my plugins send them my way and I'll 
+      post them.&nbsp; Have fun,</P>
+      <P>-Chris</P></TD></TR></TBODY>
+  <DIV class=lastUpdate>Last updated on February 4th, 2006 by Chris</DIV><A 
+  id=comments name=comments></A></TABLE>
+<TABLE class=userComments cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TH class=commentTitle align=left colSpan=4>Comments about this 
+page:</TH></TR>
+  <TR class=commentForm>
+    <TD vAlign=top colSpan=2>
+      <FORM name=commentForm method=post>Your Name:<BR><INPUT 
+      class=formCommenter name=commenter></TD>
+    <TD vAlign=top align=left>Your Comment:<BR><TEXTAREA class=formComment name=comment cols=50></TEXTAREA></TD>
+    <TD vAlign=top align=left 
+    width=0><BR><INPUT type=submit value=Save></FORM></TD></TR></TBODY></TABLE>
+<TABLE class=userComments cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+  <TR class=userComment>
+    <TD class=commentDate>January 22nd, 2006 at 1:11am </TD>
+    <TD class=commenter>&nbsp;by Fred</TD>
+    <TD class=comment>Excellent and very useful Plugin, i even understood the 
+      manual! A donation is o.k. after 1.6.06! &gt;regards 
+Fred</TD></TR></TBODY></TABLE></TD></TR></TABLE><BR>
+<TABLE cellSpacing=0 width=800 border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%">
+      <P align=center><FONT size=+1><A 
+      href="http://www.rekliner.com/?PageID=Sitemap">Site Map</A><BR><A 
+      href="http://www.rekliner.com/?PageID=10">Contact</A></FONT></P></TD></TD></TR></TBODY></TABLE><BR><BR>©2003-2005 
+Rekliner Records </BODY></HTML>

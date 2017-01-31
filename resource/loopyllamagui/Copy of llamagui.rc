@@ -1,0 +1,125 @@
+//Microsoft Developer Studio generated resource script.
+//
+//#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+//#ifdef _WIN32
+//LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+//#pragma code_page(1252)
+//#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+10001              BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10001.bmp"
+10002                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10002.bmp"
+10003                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10003.bmp"
+10004                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10004.bmp"
+10005                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10005.bmp"
+10006                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10006.bmp"
+10007                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10007.bmp"
+10008                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10008.bmp"
+10009                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10009.bmp"
+10010                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10010.bmp"
+10011                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10011.bmp"
+10012                   BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10012.bmp"
+10013		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10013.bmp"
+10014		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10014.bmp"
+10015		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10015.bmp"
+10016		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10016.bmp"
+10017		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10017.bmp"
+10018		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10018.bmp"
+10019		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10019.bmp"
+10020		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10020.bmp"
+10021		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10021.bmp"
+10022		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10022.bmp"
+10023		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10023.bmp"
+10024		           BITMAP  DISCARDABLE     "..\\loopyllamagui\\bmp10024.bmp"
+
+
+#endif    // Neutral resources
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x0L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004e4"
+        BEGIN
+            VALUE "CompanyName", "Steinberg Media Technologies\0"
+            VALUE "FileDescription", "VST Plug-In\0"
+            VALUE "FileVersion", "1.1\0"
+            VALUE "InternalName", "loopyllamagui\0"
+            VALUE "LegalCopyright", "© Steinberg Media Technologies 2003\0"
+            VALUE "LegalTrademarks", "Cubase VST is a trademark of Steinberg Media Technologies\0"
+            VALUE "OriginalFilename", "loopyllamagui.dll\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1252
+    END
+END
+
+#endif    // !_MAC
+/*
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+*/
+//#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+//#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+//#endif    // not APSTUDIO_INVOKED
+

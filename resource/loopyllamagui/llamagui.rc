@@ -1,0 +1,131 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+//LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+10001                   BITMAP                  "bmp10001.bmp"
+10002                   BITMAP                  "bmp10002.bmp"
+10003                   BITMAP                  "bmp10003.bmp"
+10004                   BITMAP                  "bmp10004.bmp"
+10005                   BITMAP                  "bmp10005.bmp"
+10006                   BITMAP                  "bmp10006.bmp"
+10008                   BITMAP                  "bmp10008.bmp"
+10009                   BITMAP                  "bmp10009.bmp"
+10010                   BITMAP                  "bmp10010.bmp"
+10011                   BITMAP                  "bmp10011.bmp"
+10012                   BITMAP                  "bmp10012.bmp"
+10013                   BITMAP                  "bmp10013.bmp"
+10014                   BITMAP                  "bmp10014.bmp"
+10015                   BITMAP                  "bmp10015.bmp"
+10016                   BITMAP                  "bmp10016.bmp"
+10017                   BITMAP                  "bmp10017.bmp"
+10018                   BITMAP                  "bmp10018.bmp"
+10019                   BITMAP                  "bmp10019.bmp"
+10020                   BITMAP                  "bmp10020.bmp"
+10021                   BITMAP                  "bmp10021.bmp"
+10022                   BITMAP                  "bmp10022.bmp"
+10023                   BITMAP                  "bmp10023.bmp"
+10024                   BITMAP                  "bmp10024.bmp"
+10025                   BITMAP                  "bmp10025.bmp"
+10026                   BITMAP                  "bmp10026.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x0L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004e4"
+        BEGIN
+            VALUE "CompanyName", "Rekliner Records"
+            VALUE "FileDescription", "VST Plug-In"
+            VALUE "FileVersion", "0.95"
+            VALUE "InternalName", "loopyllamagui"
+            VALUE "LegalCopyright", "© Rekliner Records 2002-2006"
+            VALUE "LegalTrademarks", "Rawkin the llama"
+            VALUE "OriginalFilename", "loopyllamagui.dll"
+            VALUE "ProductVersion", "1, 1, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1252
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
